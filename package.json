@@ -1,0 +1,19 @@
+{
+  "name": "redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BigShakaGames <bigshakagames@gmail.com> (https://www.fiverr.com/nft_cheap_fast/teach-you-how-to-make-your-own-nfts-using-a-script)",
+  "license": "ISC",
+  "dependencies": {
+    "ioredis": "^4.28.5",
+    "tsc": "^2.0.4",
+    "typescript": "^4.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21"
+  }
+}

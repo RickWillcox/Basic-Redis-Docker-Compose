@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  redis:
+    container_name: 'redis'
+    image: redis:alpine
+    command: redis-server /home/rick/Documents/core-api/src/services/redis/redis.conf
+    ports:
+      - '6379:6379'
+    volumes:
+      - $PWD/redis.conf:/home/rick/Documents/core-api/src/services/redis/redis.conf
